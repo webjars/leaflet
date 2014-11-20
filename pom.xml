@@ -44,6 +44,12 @@
         <upstream.version>0.7.3</upstream.version>
         <upstream.url>http://leaflet-cdn.s3.amazonaws.com/build</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <requirejs>
+            {
+                paths: { "leaflet": "leaflet" },
+                shim: { "leaflet": { "exports": "L" } }
+            }
+        </requirejs>
     </properties>
 
     <build>
