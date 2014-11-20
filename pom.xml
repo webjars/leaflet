@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>leaflet</artifactId>
-    <version>0.7.4-SNAPSHOT</version>
+    <version>0.7.3-1-SNAPSHOT</version>
     <name>Leaflet</name>
     <description>WebJar for Leaflet</description>
     <url>http://webjars.org</url>
@@ -96,14 +96,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.4.2</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.scm</groupId>
-                        <artifactId>maven-scm-provider-gitexe</artifactId>
-                        <version>1.9</version>
-                    </dependency>
-                </dependencies>
+                <version>2.5.1</version>
             </plugin>
 
             <plugin>
