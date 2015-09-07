@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>leaflet</artifactId>
-    <version>0.7.5</version>
+    <version>0.7.5-SNAPSHOT</version>
     <name>Leaflet</name>
     <description>WebJar for Leaflet</description>
     <url>http://webjars.org</url>
