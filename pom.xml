@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>leaflet</artifactId>
-    <version>0.7.5-SNAPSHOT</version>
+    <version>0.7.5</version>
     <name>Leaflet</name>
     <description>WebJar for Leaflet</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/leaflet</url>
         <connection>scm:git:https://github.com/webjars/leaflet.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/leaflet.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>leaflet-0.7.5</tag>
     </scm>
     
     <properties>
@@ -82,11 +82,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/leaflet"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/leaflet" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/leaflet"/>
+                                    <fileset dir="${project.build.directory}/leaflet" />
                                 </move>
                             </target>
                         </configuration>
