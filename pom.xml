@@ -42,7 +42,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>0.7.5</upstream.version>
-        <upstream.url>http://leaflet-cdn.s3.amazonaws.com/build</upstream.url>
+        <upstream.url>http://cdn.leafletjs.com/downloads</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
             {
