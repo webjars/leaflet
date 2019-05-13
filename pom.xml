@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>leaflet</artifactId>
-    <version>1.5.1</version>
+    <version>1.5.2-SNAPSHOT</version>
     <name>Leaflet</name>
     <description>WebJar for Leaflet</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/leaflet</url>
         <connection>scm:git:https://github.com/webjars/leaflet.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/leaflet.git</developerConnection>
-        <tag>leaflet-1.5.1</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <properties>
